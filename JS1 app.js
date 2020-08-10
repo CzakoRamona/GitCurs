@@ -32,5 +32,9 @@ console.log(Math.max(...array));
 
 //ex5
 var array1=[2,5,8,22,5,2,5,18,5,2];
-var count={};
-console.log(count(array, '5'));
+var char="5";
+for(var i=0;i<array1.lenght;i++){
+    if(array1[i]==char){
+        console.log(char)
+    }
+}
