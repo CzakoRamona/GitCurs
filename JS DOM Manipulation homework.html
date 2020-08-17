@@ -1,8 +1,26 @@
+<!DOCTYPE html>
 <html>
     <head>
 <title>Contact</title>
+<link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <form action="/action_page.php">
+        <img src="Mare.jpg" alt="Marea si scoici">
+        <input id="First name" type="text" value="First name">
+        <br><br>
+        <input id="Last name" type="text" value="Last name"> 
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+       <textarea id="Message" value="Your message here..."></textarea><br><br>
+       <button type="button" onclick="alert('Thank you for contacting us')">Submit</button>
+       
+          </form>
+
         
     </body>
 </html>
